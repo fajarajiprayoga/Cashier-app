@@ -1,0 +1,20 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class MultiImg extends Model
+{
+    use HasFactory;
+
+    protected $fillable = [
+        'product_id',
+        'photo_path'
+    ];
+
+    public function products() {
+        return $this->belongsTo(Product::class, 'product_id'. 'id');
+    }
+}
