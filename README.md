@@ -1,66 +1,26 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Cashier App
+Aplikasi kasir yang dibuat dengan Laravel 9 sebagai backend dan VueJS sebagai frontend dengan perantara InertaiJS. Pembayaran dapat dilakukan secara langsung dan payment gateway
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+# Fitur yang tersedia pada aplikasi
+- Autentikasi Kasir dan User (Spatie)
+- Home Page Website
+- Modul Kategori dan Menu
+- Metode pembayaran langsung dan Payment Gateway (Midtrans)
+- Detail transaksi
 
-## About Laravel
+# Preview
+![Home Page](https://user-images.githubusercontent.com/66194865/214064269-9d691fe4-7de5-4a36-9410-33a204bd25f9.jpg)
+![Detail Product](https://user-images.githubusercontent.com/66194865/214064357-434b1d62-8732-4d74-948b-e2951e328039.jpg)
+![Cart Menu](https://user-images.githubusercontent.com/66194865/214064428-31fba301-2888-46cf-8de4-853a1e37a2dd.jpg)
+![User Billing](https://user-images.githubusercontent.com/66194865/214064506-666fe34c-334a-4c86-8fb2-f67c0c18f324.jpg)
+![User Payment](https://user-images.githubusercontent.com/66194865/214064525-f26dea74-f0a5-43bf-8fac-b20635287e25.jpg)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
-
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
-
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
-
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+# Dashboard Preview
+![ProductList](https://user-images.githubusercontent.com/66194865/214064652-1ab0ac93-ce9b-4f49-bb38-39bdac890475.jpg)
+![ProductCreate](https://user-images.githubusercontent.com/66194865/214064669-0053e588-6f07-4f16-80fb-d0295d98b48b.jpg)
+![ProductEdit](https://user-images.githubusercontent.com/66194865/214064682-6943640f-2b2a-4231-9963-1849855536bf.jpg)
+![Kasir](https://user-images.githubusercontent.com/66194865/214064706-657815c7-ba70-4ba8-bd72-c455ee35bc1d.jpg)
+![payment gateway](https://user-images.githubusercontent.com/66194865/214064750-ce6828a3-387c-4188-a5e5-067636807529.jpg)
+![Payment success](https://user-images.githubusercontent.com/66194865/214064764-472491c8-3dc8-493b-b46b-c318e32df2f2.jpg)
+![Transaction](https://user-images.githubusercontent.com/66194865/214064788-deac566d-6333-43c6-8e10-1d5c0aa77742.jpg)
+![Transaction Details](https://user-images.githubusercontent.com/66194865/214064812-87eebc0c-d12f-4218-a625-153612670d82.jpg)
